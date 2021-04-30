@@ -26,7 +26,6 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].[contenthash].js',
-    publicPath: isProd ? '/dist/' : '/'
   },
   resolve: {
     extensions: ['.js', '.json', '.jsx'],
@@ -137,14 +136,6 @@ module.exports = {
       },
     }),
     new CleanWebpackPlugin(),
-    // new CopyWebpackPlugin({
-    //   patterns: [
-    //     {
-    //       from: path.resolve(__dirname, 'src/assets/images'),
-    //       to: path.resolve(__dirname, 'build', 'assets/images'),
-    //     },
-    //   ],
-    // }),
     new MiniCssExtractPlugin({
       filename: 'main.css'
     }),
