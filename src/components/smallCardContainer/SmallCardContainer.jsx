@@ -1,5 +1,5 @@
 import React from 'react';
-import SmallCard from '../smallCard/SmallCard.jsx';
+import SmallCard from '../smallCard/SmallCard';
 import styles from './smallCardContainer.module.scss';
 
 const SmallCardContainer = (props) => {

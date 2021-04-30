@@ -16,7 +16,7 @@ const ItemCard = (props) => {
   return (
     <div className={styles.itemCard}>
       <div className={styles.itemImg}>
-        <img src={`../../build/assets/images/${product.image}`} alt=""/>
+        <img src={require(`../../assets/images/${product.image}`)} alt={`product ${product.id}`}/>
       </div>
       <div className={styles.itemInfo}>
         <div className={styles.itemTitle}>{product.title}</div>

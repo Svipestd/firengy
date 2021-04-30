@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import LargeCardContainer from '../../components/largeCardContainer/LargeCardContainer.jsx';
-import SmallCardContainer from '../../components/smallCardContainer/SmallCardContainer.jsx';
+import LargeCardContainer from '../../components/largeCardContainer/LargeCardContainer';
+import SmallCardContainer from '../../components/smallCardContainer/SmallCardContainer';
 import styles from './products.module.scss';
 
 const Product = () => {

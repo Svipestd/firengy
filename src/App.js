@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Header from './components/header/Header.jsx';
-import Routes from './Routes.jsx';
+import Header from './components/header/Header';
+import Routes from './Routes';
+import ScrollToTop from './components/scrollToTop/scrollToTop';
 import styles from './app.module.scss';
-import ScrollToTop from './components/scrollToTop/scrollToTop.jsx';
 
 const App = () => {
   return (

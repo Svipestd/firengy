@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchReviews } from '../../store/productsReducer.js';
-import ReviewCard from '../reviewCard/ReviewCard.jsx';
+import { fetchReviews } from '../../store/productsReducer';
+import ReviewCard from '../reviewCard/ReviewCard';
 
 
 const ReviewContainer = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import LargeCard from '../largeCard/LargeCard.jsx';
+import LargeCard from '../largeCard/LargeCard';
 import styles from './largeCardContainer.module.scss';
 
 const LargeCardContainer = (props) => {

@@ -7,7 +7,7 @@ const SmallCard = (props) => {
 
   return (
     <Link className={styles.cardBox} to={`/products/${id}`}>
-      <img src={`../../build/assets/images/${image}`} alt="" />
+      <img src={require(`../../assets/images/${image}`)} alt={`product ${id}`} />
     </Link>
   )
 }

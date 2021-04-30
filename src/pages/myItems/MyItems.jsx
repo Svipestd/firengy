@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import ItemCard from '../../components/itemCard/ItemCard.jsx'
+import ItemCard from '../../components/itemCard/ItemCard'
 import styles from './myItems.module.scss';
 
 const MyItems = () => {

@@ -1,8 +1,8 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router';
-import ReviewContainer from '../../components/reviewContainer/ReviewContainer.jsx'
-import { productsActions } from '../../store/productsReducer.js';
+import ReviewContainer from '../../components/reviewContainer/ReviewContainer'
+import { productsActions } from '../../store/productsReducer';
 import styles from './productCard.module.scss';
 
 const ProductCard = () => {
@@ -23,7 +23,7 @@ const ProductCard = () => {
     <div >
       <div className={styles.productHead}>
         <div className={styles.productImg}>
-          <img src={`../../build/assets/images/${product.image}`} alt="" />
+          <img src={require(`../../assets/images/${product.image}`)} alt={`product ${product.id}`} />
         </div>
 
         <div className={styles.productInfo}>

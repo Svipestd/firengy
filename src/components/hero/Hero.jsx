@@ -1,7 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from './hero.module.scss';
 import image from '@/assets/svg/fire-extinguisher.svg'
-import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (

@@ -1,8 +1,8 @@
 import React from 'react';
-import LargeCardContainer from '../../components/largeCardContainer/LargeCardContainer.jsx';
 import { useSelector } from 'react-redux';
-import Hero from '../../components/hero/Hero.jsx';
-import SmallCardContainer from '../../components/smallCardContainer/SmallCardContainer.jsx';
+import LargeCardContainer from '../../components/largeCardContainer/LargeCardContainer';
+import Hero from '../../components/hero/Hero';
+import SmallCardContainer from '../../components/smallCardContainer/SmallCardContainer';
 
 const Hello = () => {
   const largeCardSections = useSelector(state => state.productsPage.products.largeCardSections);

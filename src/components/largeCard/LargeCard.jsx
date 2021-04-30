@@ -9,7 +9,7 @@ const LargeCard = (props) => {
   return (
     <Link className={styles.cardBox} to={`/products/${id}`}>
       <div className={styles.cardImg}>
-        <img src={`../../build/assets/images/${image}`} alt=""/>
+        <img src={require(`../../assets/images/${image}`)} alt={`product ${id}`}/>
       </div>
       <div className={styles.cardTitle}>{title}</div>
       <div className={styles.cardSnippet}>{snippet}</div>
