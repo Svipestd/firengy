@@ -1,7 +1,8 @@
 [[redirects]]
-  from = "/products/:id"
-  to = "/products/:id"
+  from = "/products/*"
+  to = "/products/:splat"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/*"
