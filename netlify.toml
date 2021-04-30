@@ -1,4 +1,9 @@
 [[redirects]]
+  from = "/products/:id"
+  to = "/products/:id"
+  status = 200
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
