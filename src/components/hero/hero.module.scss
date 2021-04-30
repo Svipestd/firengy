@@ -1,0 +1,95 @@
+@import "../../assets/scss/main.scss";
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 150px 0;
+
+  .heroInfo {
+    width: 50%;
+
+    .heroTitle {
+      font-size: 80px;
+      font-weight: 800;
+    }
+    .heroDescription {
+      margin: 30px 0;
+      font-size: 20px;
+      color: #808080;
+    }
+    .heroBtn {
+      .btn {
+        padding: 15px 100px;
+        background-color: $secondColor;
+        border: none;
+        border-radius: 40px;
+        font-size: 20px;
+        font-weight: 700;
+        color: #fff;
+        cursor: pointer;
+
+        &:hover {
+          padding: 15px 120px;
+          background-color: rgb(184, 67, 38);
+          transition: padding linear 0.2s, background-color linear 0.2s;
+        }
+      }
+    }
+  }
+  .heroImg {
+    width: 45%;
+  }
+
+  @media (max-width: 1023px) {
+    padding: 100px 0;
+
+    .heroInfo {
+      .heroTitle {
+        font-size: 50px;
+      }
+      .heroBtn {
+        .btn {
+          padding: 10px 75px;
+
+          &:hover {
+            padding: 10px 75px;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+    height: calc(100vh - 100px);
+    padding: 20px 0 0 0;
+
+    .heroInfo {
+      width: 90%;
+      margin: 0 auto;
+
+      .heroTitle {
+        font-size: 24px;
+        text-align: center;
+      }
+      .heroDescription {
+        text-align: center;
+        margin: 10px 0;
+        font-size: 18px;
+      }
+
+      .heroBtn {
+        .btn {
+          padding: 8px 70px;
+        }
+      }
+    }
+
+    .heroImg {
+      width: 55%;
+      margin: 0 auto;
+    }
+  }
+}

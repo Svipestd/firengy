@@ -1,0 +1,35 @@
+@import '../../assets/scss/main.scss';
+
+.containerBox {
+  margin: 25px 0 75px 0;
+
+  .containerTitle {
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .containerSnippet {
+    margin-bottom: 20px;
+    color: $textColor;
+  }
+  .containerCards {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 767px) {
+    margin: 25px 0 0 0;
+    .containerTitle {
+      text-align: center;
+    }
+    .containerSnippet {
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+    .containerCards {
+      flex-direction: column;
+      margin: 20px 0;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@import "./reset";
+
+$mainColor: rgb(65, 63, 63);
+$secondColor: rgb(231, 81, 43);
+$textColor: #808080;
+
+html {
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+}

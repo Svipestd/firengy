@@ -1,0 +1,26 @@
+@import '../../assets/scss/main.scss';
+
+.containerBox {
+  margin: 50px 0;
+
+  .containerTitle {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .containerCards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 767px) {
+    .containerTitle {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+    .containerCards {
+      flex-direction: column;
+    }
+  }
+}

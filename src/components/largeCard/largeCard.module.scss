@@ -1,0 +1,36 @@
+@import "../../assets/scss/main.scss";
+
+.cardBox {
+  width: 30%;
+  text-decoration: none;
+
+  .cardImg {
+    height: 260px;
+
+    img {
+      border-radius: 20px;
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .cardTitle {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+  }
+  .cardSnippet {
+    color: $textColor;
+  }
+
+  @media (max-width: 1023px) {
+    .cardImg {
+      height: 190px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}

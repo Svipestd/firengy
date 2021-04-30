@@ -1,0 +1,40 @@
+@import "../../assets/scss/main.scss";
+
+.reviewCard {
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 0;
+
+  .reviewImg {
+    width: 72px;
+
+    img {
+      width: 100%;
+      border-radius: 100%;
+    }
+  }
+
+  .reviewInfo {
+    width: 90%;
+
+    .reviewName {
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .reviewText {
+      color: $textColor;
+    }
+  }
+
+  @media (max-width: 1023px) {
+    .reviewInfo {
+      width: 87%;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .reviewInfo {
+      width: 73%;
+    }
+  }
+}
