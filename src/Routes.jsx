@@ -3,7 +3,7 @@ import { Redirect, Route, Switch } from 'react-router-dom';
 import Welcome from './pages/welcome/Welcome';
 import Products from './pages/products/Products';
 import MyItems from './pages/myItems/MyItems';
-import ProductCard from './pages/productCard/productCard';
+import ProductCard from './pages/productCard/ProductCard';
 
 const Routes = () => {
   return (
